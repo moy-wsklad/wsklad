@@ -7,7 +7,7 @@
 		    <?php $args['object']->generateHtml($args['object']->getFields(), true); ?>
         </table>
     </div>
-    <p class="submit">
-	    <input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e('Save settings', 'wsklad'); ?>">
+    <p class="submit mt-0">
+	    <input type="submit" name="submit" id="submit" class="button button-primary p-1 fs-6 px-3" value="<?php _e('Save settings', 'wsklad'); ?>">
     </p>
 </form>
