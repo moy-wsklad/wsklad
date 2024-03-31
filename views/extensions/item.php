@@ -2,15 +2,13 @@
 
 <div class="extensions-all-item mb-2 mt-2 rounded-1 border border-3 bg-white">
     <div class="card-header bg-light p-2 border-0">
-        <h2 class="card-title mt-0 mb-0 float-start">
-            <?php printf('%s', wp_kses_post($args['object']->getMeta('name', __('none')))); ?>
-        </h2>
+        <h2 class="card-title mt-0 mb-0 float-start"><?php printf('%s', wp_kses_post($args['object']->getMeta('name', __('none')))); ?></h2>
         <div class="clearfix"></div>
     </div>
     <div class="card-body p-2">
         <div class="row g-0">
             <div class="col-24 col-md-15 col-lg-18">
-                <p class="card-text mt-2 mb-2">
+                <p class="card-text mt-2 mb-2 fs-6">
                     <?php printf('%s', wp_kses_post($args['object']->getMeta('description', __('none')))); ?>
                 </p>
             </div>
