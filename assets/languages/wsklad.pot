@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: WSKLAD\n"
-"POT-Creation-Date: 2024-01-17 13:27+0300\n"
+"POT-Creation-Date: 2024-03-31 14:03+0300\n"
 "PO-Revision-Date: 2022-12-11 01:58+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -113,6 +113,10 @@ msgstr ""
 msgid "Awaiting final removal. All algorithms are disabled."
 msgstr ""
 
+#: src/Admin/Accounts/AllTable.php:169
+msgid "Status description"
+msgstr ""
+
 #: src/Admin/Accounts/AllTable.php:184
 msgid "Verification"
 msgstr ""
@@ -208,7 +212,7 @@ msgctxt "%s = human-readable time difference"
 msgid " (%s ago)."
 msgstr ""
 
-#: src/Admin/Accounts/Dashboard.php:225 views/extensions/item.php:20
+#: src/Admin/Accounts/Dashboard.php:225 views/extensions/item.php:18
 msgid "ID:"
 msgstr ""
 
@@ -1548,25 +1552,25 @@ msgstr ""
 msgid "Error. Page for extensions not found."
 msgstr ""
 
-#: views/extensions/item.php:6 views/extensions/item.php:14
-#: views/extensions/item.php:26 views/extensions/item.php:33
-#: views/extensions/item.php:37
+#: views/extensions/item.php:5 views/extensions/item.php:12
+#: views/extensions/item.php:24 views/extensions/item.php:31
+#: views/extensions/item.php:35
 msgid "none"
 msgstr ""
 
-#: views/extensions/item.php:24
+#: views/extensions/item.php:22
 msgid "Version:"
 msgstr ""
 
-#: views/extensions/item.php:30
+#: views/extensions/item.php:28
 msgid "Versions WSKLAD:"
 msgstr ""
 
-#: views/extensions/item.php:31
+#: views/extensions/item.php:29
 msgid "from"
 msgstr ""
 
-#: views/extensions/item.php:35
+#: views/extensions/item.php:33
 msgid "to"
 msgstr ""
 
@@ -1801,8 +1805,8 @@ msgstr ""
 msgid "As soon as the tools are installed, they will appear in this section."
 msgstr ""
 
-#: views/tools/item.php:14
-msgid "Open"
+#: views/tools/item.php:12
+msgid "Open tool"
 msgstr ""
 
 #: views/wizards/error.php:3
