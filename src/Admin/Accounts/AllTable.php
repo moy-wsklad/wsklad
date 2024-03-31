@@ -166,7 +166,7 @@ class AllTable extends TableAbstract
 			$status_description = __('Awaiting final removal. All algorithms are disabled.', 'wsklad');
 		}
 
-		return '<span class="' . $status_class . '" data-bs-toggle="popover" data-bs-trigger="hover focus click" data-bs-content="' . $status_description . '">' . $status . '</span>';
+		return '<span class="' . $status_class . '" data-bs-custom-class="accounts-status-popover ' . $status_class . '" data-bs-title="' . __('Status description', 'wsklad') . '"  data-bs-toggle="popover" data-bs-trigger="hover focus click" data-bs-content="' . $status_description . '">' . $status . '</span>';
 	}
 
 	/**
@@ -180,7 +180,7 @@ class AllTable extends TableAbstract
 	{
 		$actions =
 		[
-			'dashboard' => '<a href="' . $this->utilityAdminAccountsGetUrl('dashboard', $item['account_id']) . '">' . __('Dashboard', 'wsklad') . '</a>',
+			'dashboard' => '<a href="' . $this->utilityAdminAccountsGetUrl('dashboard', $item['account_id']) . '">' . __('Open dashboard', 'wsklad') . '</a>',
 			'verification' => '<a href="' . $this->utilityAdminAccountsGetUrl('verification', $item['account_id']) . '">' . __('Verification', 'wsklad') . '</a>',
 			'delete' => '<a href="' . $this->utilityAdminAccountsGetUrl('delete', $item['account_id']) . '">' . __('Mark as deleted', 'wsklad') . '</a>',
 		];
