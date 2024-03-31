@@ -180,7 +180,7 @@ class AllTable extends TableAbstract
 	{
 		$actions =
 		[
-			'dashboard' => '<a href="' . $this->utilityAdminAccountsGetUrl('dashboard', $item['account_id']) . '">' . __('Dashboard', 'wsklad') . '</a>',
+			'dashboard' => '<a href="' . $this->utilityAdminAccountsGetUrl('dashboard', $item['account_id']) . '">' . __('Open dashboard', 'wsklad') . '</a>',
 			'verification' => '<a href="' . $this->utilityAdminAccountsGetUrl('verification', $item['account_id']) . '">' . __('Verification', 'wsklad') . '</a>',
 			'delete' => '<a href="' . $this->utilityAdminAccountsGetUrl('delete', $item['account_id']) . '">' . __('Mark as deleted', 'wsklad') . '</a>',
 		];
