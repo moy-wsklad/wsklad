@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: WSKLAD\n"
-"POT-Creation-Date: 2024-03-31 14:03+0300\n"
+"POT-Creation-Date: 2024-03-31 14:41+0300\n"
 "PO-Revision-Date: 2022-12-11 01:58+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -68,8 +68,8 @@ msgstr ""
 msgid "Accounts"
 msgstr ""
 
-#: src/Admin.php:272 src/Admin/Accounts/AllTable.php:183
-#: views/accounts/dashboard.php:6 views/accounts/sections_single.php:6
+#: src/Admin.php:272 views/accounts/dashboard.php:6
+#: views/accounts/sections_single.php:6
 msgid "Dashboard"
 msgstr ""
 
@@ -115,6 +115,10 @@ msgstr ""
 
 #: src/Admin/Accounts/AllTable.php:169
 msgid "Status description"
+msgstr ""
+
+#: src/Admin/Accounts/AllTable.php:183
+msgid "Open dashboard"
 msgstr ""
 
 #: src/Admin/Accounts/AllTable.php:184

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WSKLAD\n"
-"POT-Creation-Date: 2024-03-31 14:02+0300\n"
-"PO-Revision-Date: 2024-03-31 14:03+0300\n"
+"POT-Creation-Date: 2024-03-31 14:41+0300\n"
+"PO-Revision-Date: 2024-03-31 14:42+0300\n"
 "Last-Translator: Frescoref\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -73,8 +73,8 @@ msgstr "Расширения"
 msgid "Accounts"
 msgstr "Учетные записи"
 
-#: src/Admin.php:272 src/Admin/Accounts/AllTable.php:183
-#: views/accounts/dashboard.php:6 views/accounts/sections_single.php:6
+#: src/Admin.php:272 views/accounts/dashboard.php:6
+#: views/accounts/sections_single.php:6
 msgid "Dashboard"
 msgstr "Панель"
 
@@ -123,6 +123,10 @@ msgstr "Ожидает окончательного удаления. Все а�
 #: src/Admin/Accounts/AllTable.php:169
 msgid "Status description"
 msgstr "Описание состояния"
+
+#: src/Admin/Accounts/AllTable.php:183
+msgid "Open dashboard"
+msgstr "Открыть панель"
 
 #: src/Admin/Accounts/AllTable.php:184
 msgid "Verification"
